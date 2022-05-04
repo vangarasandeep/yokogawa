@@ -1,0 +1,32 @@
+.activewell{
+    height: 30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+td {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+.pageno{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 50px;
+}
